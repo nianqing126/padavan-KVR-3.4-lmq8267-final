@@ -377,7 +377,7 @@ function button_etweb(){
 	</td>
 	</tr><tr id="easytier_file_td"><td colspan="3"></td></tr>
 	<tr id="config_server_tr">
-	<th width="30%" style="border-top: 0 none;" title="-w  配置Web服务器地址。格式：①完整URL： udp://127.0.0.1:22020/admin  ②仅用户名： admin，将使用官方的服务器">服务器地址①完整URL/user②仅用户名:user</th>
+	<th width="30%" style="border-top: 0 none;" title="-w  配置Web服务器地址。格式：①完整URL： udp://127.0.0.1:22020/admin  ②仅用户名： admin，将使用官方的服务器">①完整URL/user②仅用户名:user</th>
 	<td style="border-top: 0 none;">
 	<input type="text" maxlength="128" class="input" size="15" placeholder="admin" id="easytier_config_server" name="easytier_config_server" value="<% nvram_get_x("","easytier_config_server"); %>" onKeyPress="return is_string(this,event);" />
 	</td>
